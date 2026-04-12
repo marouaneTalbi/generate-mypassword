@@ -1,0 +1,46 @@
+export default {
+  header: {
+    subtitle: "Secure password generator · Free · No registration",
+  },
+  generator: {
+    title: "Generate a secure password",
+    strength: "Password strength",
+    crackTime: "Estimated crack time",
+    length: "Length",
+    upper: "Uppercase",
+    lower: "Lowercase",
+    numbers: "Numbers",
+    symbols: "Symbols",
+    advanced: "Advanced options",
+    excludeAmbiguous: "Exclude ambiguous characters (0, O, l, 1, I)",
+    noRepeat: "No consecutive repeated characters",
+    startWithLetter: "Start with a letter",
+    generate: "Generate a new password",
+    history: "History (this session)",
+  },
+  checker: {
+    title: "Check password strength",
+    subtitle: "Test the security of an existing password",
+    placeholder: "Enter a password...",
+    criteria: {
+      length: "At least 12 characters",
+      upper: "Contains uppercase letters",
+      numbers: "Contains numbers",
+      symbols: "Contains symbols",
+    },
+  },
+  strength: {
+    veryWeak: "Very weak",
+    weak: "Weak",
+    medium: "Medium",
+    strong: "Strong",
+    veryStrong: "Very strong",
+    none: "None",
+  },
+  footer: {
+    privacy: "Made with ♥ — No password sent, everything stays in your browser",
+    alsoCheck: "Also check out our other free tools",
+    textCleaner: "text cleaner",
+    imageCompressor: "image compressor",
+  },
+};

@@ -1,0 +1,46 @@
+export default {
+  header: {
+    subtitle: "Générateur de mots de passe sécurisés · Gratuit · Sans inscription",
+  },
+  generator: {
+    title: "Générez un mot de passe sécurisé",
+    strength: "Force du mot de passe",
+    crackTime: "Temps estimé pour cracker",
+    length: "Longueur",
+    upper: "Majuscules",
+    lower: "Minuscules",
+    numbers: "Chiffres",
+    symbols: "Symboles",
+    advanced: "Options avancées",
+    excludeAmbiguous: "Exclure les caractères ambigus (0, O, l, 1, I)",
+    noRepeat: "Pas de caractères répétés consécutifs",
+    startWithLetter: "Commence par une lettre",
+    generate: "Générer un nouveau mot de passe",
+    history: "Historique (cette session)",
+  },
+  checker: {
+    title: "Vérifier la force d'un mot de passe",
+    subtitle: "Testez la sécurité d'un mot de passe existant",
+    placeholder: "Entrez un mot de passe...",
+    criteria: {
+      length: "Au moins 12 caractères",
+      upper: "Contient des majuscules",
+      numbers: "Contient des chiffres",
+      symbols: "Contient des symboles",
+    },
+  },
+  strength: {
+    veryWeak: "Très faible",
+    weak: "Faible",
+    medium: "Moyen",
+    strong: "Fort",
+    veryStrong: "Très fort",
+    none: "Aucun",
+  },
+  footer: {
+    privacy: "Fait avec ♥ — Aucun mot de passe envoyé, tout reste dans votre navigateur",
+    alsoCheck: "Découvrez aussi nos autres outils gratuits",
+    textCleaner: "nettoyeur de texte",
+    imageCompressor: "compresseur d'images",
+  },
+};
